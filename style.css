@@ -5,7 +5,7 @@
 }
 body{
    
-    background-color: #ff8f0e2b;
+    background-color: #ffffff;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,10 +34,12 @@ body{
      border-radius: 8px;
 }
 header{
+    background-color: #ff8f0e30;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 115px;
+    padding-bottom: 115px;
+    padding-top: 60px;
 }
 header ul{
     list-style: none;
@@ -64,13 +66,16 @@ header h2{
 
 
 #banner-section{
+    background-color: #ff8f0e30;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     gap: 50px;
     text-align: center;
+    padding-bottom: 35px;
 }
+
 #banner-section h1{
     font-weight: bold;
     font-size: 64px;
@@ -78,3 +83,44 @@ header h2{
 #banner-section p{
     margin: 33px auto;
 }
+#team-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 130px 300px;
+    gap: 73px;
+}
+/* #team-section div:last-child{
+    max-height: 305px;
+    min-height: 305px;
+} */
+#team-section .teamsImg{
+    min-width: 300px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.teamgrid{
+grid-column:  span 1 ;
+grid-row: span 1;
+}
+#team-section p{
+    padding: 24px 0px 32px 0px;
+}
+#team-section h3{
+    color: black;
+    font-size: 45PX;
+    font-weight: 800;
+}
+#team-section h3 span:first-child{
+    color: #727272;
+    font-weight: 700;
+}
+
+#team-section h3 span:last-child{
+    color: #FF900E;
+    font-weight: 900;
+}
+
