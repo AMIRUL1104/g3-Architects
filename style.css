@@ -4,5 +4,77 @@
     box-sizing: border-box;
 }
 body{
-    background-color: antiquewhite;
+   
+    background-color: #ff8f0e2b;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* common classes */
+.allPtag{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.buttons{
+    border-radius: 8px;
+    color: white;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 20px ;
+    font-weight: 600;
+}
+.buttons:hover{
+    color: #eee;
+    font-weight: 500;
+}
+.images{
+    width: 100%;
+     border-radius: 8px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 115px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #424242;
+}
+a:hover{
+    color: black;
+}
+header h2{
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+
+#banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+#banner-section h1{
+    font-weight: bold;
+    font-size: 64px;
+}
+#banner-section p{
+    margin: 33px auto;
 }
