@@ -10,6 +10,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* common classes */
+h2{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .allPtag{
     font-size: 16px;
     line-height: 26px;
@@ -86,8 +91,14 @@ header h2{
 #team-section{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 130px 300px;
+    gap: 73px;
+}
+#team-section .team-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 73px;
 }
 /* #team-section div:last-child{
@@ -124,3 +135,180 @@ grid-row: span 1;
     font-weight: 900;
 }
 
+
+
+
+
+#featuresDetails-section{
+   padding: 0px 300px;
+   margin: 0px auto;   
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+   /* position: relative; */
+}
+.featuresDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 54px;   
+    
+}
+.featuresDetails .featuresContainer{
+       /* height: 100%; */
+       display: flex;
+       align-items: left;
+       flex-direction: column;
+       justify-content: space-around;
+       gap: 25px;
+       text-align: left;
+       border: 1px solid red;
+}
+.featureCards{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: space-around;
+       gap: 20px;
+
+}
+.featureCards div{
+    box-shadow: 0px 0px 20px #eee;
+    padding: 30px;
+}
+.featureCards div h4{
+    font-size: 20px ;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+#featuresDetails-section .featuresContainer h2{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 45px;
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+}
+
+.Architectimage{
+    position: relative;
+    border: 1px solid red ;
+}
+.experience {
+    position: absolute;
+    left: -10%;
+    top: 88%;
+    background-color: #FF900E;
+    padding: 45px 42px;
+    text-align: center;
+    border-radius: 8px;
+   text-transform: capitalize;
+}
+.experience h3 {
+    color: #ffffff;
+    font-size: 40px ;
+    font-weight: bolder;    
+}.experience p{
+    color: #ffffff;
+    font-size: 20px ;
+    font-weight: bolder;
+}
+
+
+
+
+/* some facts section  */
+#somefact-section{
+  padding: 130px 300px;   
+}
+#somefact-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+#somefact-section .container .facts-intro h2{
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: left;
+}
+#somefact-section .container .facts-intro p{
+    max-width: 545px;
+}
+
+
+#somefact-section .container .facts-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#somefact-section .container .facts-card .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 45px 35px 60px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px ;
+}
+#somefact-section .container .facts-card .card img{
+    width: 45px;
+    height: 45px;
+    
+}
+#somefact-section .container .facts-card .card h3{
+    font-size: 45px;
+    font-weight: 600;
+    
+}
+#somefact-section .container .facts-card .card p{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    
+}
+
+
+#ourSponsors-section{
+    padding: 0px 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+#ourSponsors-section .sponsors-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 524px;
+    text-transform: capitalize;
+}
+#ourSponsors-section .sponsors-intro p,h2{
+    text-align: center;
+
+}
+#ourSponsors-section .companies-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 155px;
+}
+footer {
+    padding: 130px 240px;
+}
+footer div {
+    background-color: #ff8f0e30;
+    border-radius: 8px;
+    padding: 40px 0;    
+}
+footer p{
+     background-color: #ff8f0e30;
+    border-radius: 8px;
+    padding: 40px 0; 
+    text-align: center;
+}
